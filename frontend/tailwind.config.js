@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+
+  fontFamily: {
+    myLuckiest: ['Luckiest Guy'],
+  },
+
   variants: {
     extend: {},
   },

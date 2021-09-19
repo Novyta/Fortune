@@ -8,6 +8,7 @@ import "hardhat-typechain";
 import "@typechain/ethers-v5";
 import "./tasks";
 
+
 require("dotenv").config();
 
 // This is a sample Hardhat task. To learn how to create your own go to
@@ -18,6 +19,7 @@ task("accounts", "Prints the list of accounts", async (args, hre) => {
     console.log(account.address);
   }
 });
+
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
